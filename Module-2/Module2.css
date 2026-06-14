@@ -1,0 +1,50 @@
+html{
+    background-image: url(backg.jpg);
+    font-family: "Rubik", sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 15px;
+    color: darkgoldenrod;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+table{
+    width: auto;
+    border-collapse: collapse;
+    background-color: #f5cee8;
+}
+
+table, th, td{
+    border: 1px solid white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: black;
+}
+
+tr:nth-child(even){
+    background-color: #f7f5e4;
+}
